@@ -88,6 +88,7 @@ while True:
                     break 
 
             if ending=="no":
+                    time.sleep(2)
                     ending_dialogue2=['it was a nice gameplay ','thanks for playing','Hope you will play soon..😏😏']
                     print(f"\t\t\t KITA :{random.choice(ending_dialogue2)}")
 
@@ -98,7 +99,7 @@ while True:
     # Finally it ends here,,,latwer I will add point system and simple animation system...but before that i have yo learn ....   
                 
     else : 
-        dialogue2=[" Look at your keyboard and type correct option..🤬","Are you blind or something else?","i think your keyboard is broken..fix it and try again ","are you an idiot ?🙄😑","Chnage your nymber of glasses and type correctly..😶","Look closely what you have typed...","Write it carefully.."]
+        dialogue2=[" Look at your keyboard and type correct option..🤬","Are you blind or something else?","i think your keyboard is broken..fix it and try again ","are you an idiot ?🙄😑","Chnage your number of glasses and type correctly..😶","Look closely what you have typed...","Write it carefully.."]
 
         print(f"\n\t\t\t KITA : {random.choice(dialogue2)}")
         
