@@ -55,18 +55,19 @@ while True:
                 choice = random.choice(list)
 
                 option = names[choice]
+                time.sleep(1)
 
                 print("\n\t\t\t KITA : Wait..I am calculating result using NASA computer....!!")
                 time.sleep(3)
 
                 if choice==user_choice :
-                    print(f"\n\n\t\t\t KITA : Oops we did same..😅 I have aslo choosed {option} too , it's Tie")
+                    print(f"\n\n\t\t\t KITA : Oops we did same..😅 I have also chosen {option} too , it's Tie")
 
                 elif (user_choice=="r" and choice=="p")or(user_choice=="p" and choice=="s")or(user_choice=="s" and choice=="r") :
-                    print(f"\n\n\t\t\t KITA : you can't even beat me..😂😂.I have choosed {option},I won !!! ")
+                    print(f"\n\n\t\t\t KITA : you can't even beat me..😂😂.I have chosen {option},I won !!! ")
 
                 else:
-                    print(f"\n\n\t\t\t KITA : you beated me.😣😣.I have choosed {option},You won ...!!")
+                    print(f"\n\n\t\t\t KITA : you beated me.😣😣.I have chosen {option},You won ...!!")
 
 
         
@@ -80,7 +81,7 @@ while True:
                 
                 if (ending !="yes") and (ending!="no"):
                     ending_dialogue1=["Enter a valid answer","Are you kidding..?","I just wanted to kniw if it is yes or no 😒😒","type correctly you idiot...."]
-                    print(f"\t\t\t KITA : {random,choice(ending_dialogue1)}")
+                    print(f"\t\t\t KITA : {random.choice(ending_dialogue1)}")
                     time.sleep(0.5)
 
                 else: 
